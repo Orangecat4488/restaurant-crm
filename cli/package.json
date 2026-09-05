@@ -1,0 +1,25 @@
+{
+  "name": "crm-restaurant-license",
+  "version": "1.0.0",
+  "description": "CLI management tool for Restaurant CRM Licenses and Subscriptions",
+  "main": "dist/index.js",
+  "bin": {
+    "crm-license": "./bin/crm-license.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node bin/crm-license.js",
+    "dev": "tsx src/index.ts"
+  },
+  "keywords": ["license", "crm", "restaurant", "pos", "subscription"],
+  "author": "Google DeepMind / Antigravity",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^12.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.9",
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.2"
+  }
+}

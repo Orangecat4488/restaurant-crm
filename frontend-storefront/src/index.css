@@ -1,0 +1,10 @@
+/* Storefront placeholder */
+* { box-sizing: border-box; }
+body { margin: 0; font-family: system-ui, -apple-system, sans-serif; background: #f9fafb; color: #111827; }
+.container { max-width: 960px; margin: 0 auto; padding: 32px 20px; }
+.card { background: #fff; border: 1px solid #e5e7eb; border-radius: 12px; padding: 24px; box-shadow: 0 4px 14px rgba(0,0,0,0.04); }
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px; }
+button { cursor: pointer; padding: 10px 16px; border: none; border-radius: 8px; background: #5B6BFF; color: #fff; font-weight: 600; }
+button:disabled { opacity: 0.6; cursor: not-allowed; }
+input { width: 100%; padding: 10px 12px; border: 1px solid #d1d5db; border-radius: 8px; }
+.badge { display: inline-block; padding: 2px 8px; background: #5B6BFF20; color: #4338ca; font-size: 12px; font-weight: 600; border-radius: 999px; }
